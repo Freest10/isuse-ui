@@ -1,0 +1,57 @@
+{
+  "name": "isuse-ui",
+  "version": "1.0.4",
+  "description": "![json-web-app-logo](https://user-images.githubusercontent.com/20557044/28751960-eabb6b82-751c-11e7-8939-9e45b98e0560.png)",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freest10/isuse-ui.git"
+  },
+  "keywords": [
+    "isuse",
+    "angular2",
+    "angular4",
+    "ui",
+    "sigma"
+  ],
+  "author": "Freest10",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Freest10/isuse-ui/issues"
+  },
+  "homepage": "https://github.com/Freest10/isuse-ui#readme",
+  "dependencies": {
+    "@angular/animations": ">=2.0.0 <5.0.0",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/material": "^2.0.0-beta.8",
+    "@angular/cdk": "^2.0.0-beta.8",
+    "@angular/platform-server": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "@swimlane/ngx-datatable": "^9.3.1",
+    "ngx-mydatepicker": "^2.0.12",
+    "core-js": "^2.4.1",
+    "ie-shim": "^0.1.0",
+    "reflect-metadata": "^0.1.10"
+  },
+  "devDependencies": {
+    "ts-node": "~3.0.4",
+    "tslint": "~5.3.2",
+    "typescript": "~2.3.3",
+    "rxjs": "~5.0.2",
+    "zone.js": "0.8.5",
+    "parse5": "^3.0.2",
+    "postcss-assets": "^4.2.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.6",
+    "postcss-map": "^0.9.0",
+    "postcss-short": "^4.1.0"
+  }
+}

@@ -1,0 +1,58 @@
+:root {
+  --widgetWrap: {
+    padding: 7px 0 12px;
+  };
+  --widgetwidth:{
+    width:150px;
+  };
+  --borderwidth: 5px;
+  --borderAndTextColor: #000;
+  --rightIndent:{
+    right: 10px;
+  };
+  --whiteColor: #fff;
+}
+
+.wrap-widget{@apply --widgetWrap; position:relative;}
+.active{background: #999999;}
+.dropDownMenu{@apply --widgetwidth;font-size:12px;color:var(--whiteColor);position: relative;}
+.dropDownTitle{
+  @apply --widgetwidth;
+  background-color: #999999;
+  cursor:pointer;
+  padding: 5px 0;
+  text-align: center;
+  border: 1px solid #666666;
+  position:relative;
+
+  &::before{
+     content:"";
+     position:absolute;
+     border: var(--borderwidth) solid transparent;
+     border-top: var(--borderwidth)  solid var(--borderAndTextColor);
+     top: 9px;
+     @apply --rightIndent;
+  }
+
+  &.expanded::before{
+    content:"";
+    position:absolute;
+    border: var(--borderwidth) solid transparent;
+    border-bottom: var(--borderwidth) solid #000;
+    top: 4px;
+    @apply --rightIndent;
+  }
+}
+.dropDownList{
+  position: absolute;
+  z-index: 100;
+  border: solid 1px #CCC;
+  background:var(--whiteColor);
+  color: var(--borderAndTextColor);
+  width: 100%;
+  & li{
+       padding:5px;
+       cursor:pointer;
+       &:not(.active):hover{background: #cecece;}
+  }
+}
