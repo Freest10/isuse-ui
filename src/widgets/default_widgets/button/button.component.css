@@ -1,18 +1,1 @@
-button {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  background-color: #999999;
-  border: 1px solid #666666;
-  margin: 0;
-  padding: 5px 0;
-  color: #FFFFFF;
-  font-weight: normal;
-  cursor: pointer;
-  min-width:120px;
-  outline: none;
-
-  &:disabled {
-   background-color: #c0c0c0;
-   border: 1px solid #797979;
- }
-}
+button{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;background-color:#999;border:1px solid #666;margin:0;padding:5px 0;color:#fff;font-weight:400;cursor:pointer;min-width:120px;outline:none}button:disabled{background-color:silver;border:1px solid #797979}
